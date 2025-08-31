@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanth Naidu Gokavalasa - Machine Learning Engineer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/genai": "https://esm.sh/@google/genai@^0.7.0"
+        }
+      }
+    </script>
+    <script type="module" src="index.tsx"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="social-links">
+        <ul>
+            <li><a href="https://github.com/equilusten-hn" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/im-hemanth" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="email-link">
+        <a href="mailto:gokavalashemanthnaidu@gmail.com">gokavalashemanthnaidu@gmail.com</a>
+    </div>
+    
+    <header id="header">
+        <nav>
+            <a href="#home" class="nav-logo">HNG</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/resume.pdf" class="btn btn-primary resume-btn" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="intro">Hi, my name is</p>
+                <h1 class="name">Hemanth Naidu Gokavalasa.</h1>
+                <h2 class="tagline">I build intelligent systems with data.</h2>
+                <p class="description">I'm a Mathematics and Computing student at NIT Patna, specializing in Machine Learning and AI. I'm passionate about developing innovative, data-driven solutions to complex problems.</p>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="container section-fade-in">
+            <h2><span class="section-number">01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Hemanth, a dedicated student pursuing a dual degree in Mathematics and Computing Technology at the National Institute of Technology, Patna. My core interest lies in the intersection of data, algorithms, and software engineering, with a strong focus on Machine Learning and AI.</p>
+                    <p>I thrive on building intelligent systems, from developing emotion detection models to engineering real-time safety systems. Here are a few technologies I’ve been working with recently:</p>
+                    <ul class="skills-list">
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Kotlin</li>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>AI</li>
+                        <li>Large Language Models</li>
+                        <li>Git & GitHub</li>
+                        <li>Raspberry Pi</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <!-- Professional photo placeholder -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="container section-fade-in">
+            <h2><span class="section-number">02.</span> Where I've Worked</h2>
+            <div class="experience-tabs">
+                <div class="tab-list" role="tablist" aria-label="Job tabs">
+                    <button id="tab-iitropar" role="tab" aria-selected="true" aria-controls="panel-iitropar" class="tab-item active">IIT Ropar</button>
+                    <button id="tab-isi" role="tab" aria-selected="false" aria-controls="panel-isi" class="tab-item">ISI Bangalore</button>
+                </div>
+                <div class="tab-panels">
+                    <div id="panel-iitropar" role="tabpanel" tabindex="0" aria-labelledby="tab-iitropar" class="tab-panel active">
+                        <h3>Summer Intern <span class="company">@ Indian Institute of Technology Ropar</span></h3>
+                        <p class="date">May 2025 - July 2025</p>
+                        <ul>
+                            <li>Developed a "Multimodal Emotion Detection System" using Heart Rate, Text, and Audio signals, achieving 92.8% accuracy.</li>
+                            <li>Designed a late fusion strategy to integrate text, audio, and physiological signals for better detection of emotional states.</li>
+                            <li>Fine-tuned various ML models (Logistic Regression, SVM, XGBoost) to address class imbalance effectively.</li>
+                        </ul>
+                    </div>
+                    <div id="panel-isi" role="tabpanel" tabindex="0" aria-labelledby="tab-isi" class="tab-panel">
+                        <h3>Research Intern <span class="company">@ Indian Statistical Institute, Bangalore</span></h3>
+                        <p class="date">Summer 2025</p>
+                        <ul>
+                            <li>Conducted "Probability Analysis Using R," focusing on data analytics and statistical insights.</li>
+                            <li>Developed statistical models in R, enhancing skills in data analysis and predictive modeling.</li>
+                            <li>Collaborated with a team to analyze real-world data, applying statistical methods for informed decision-making.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container section-fade-in">
+            <h2><span class="section-number">03.</span> Some Things I've Built</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="project-image">
+                         <a href="https://github.com/equilusten-hn" target="_blank"></a>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-overline">Featured Project</p>
+                        <h3 class="project-title"><a href="https://github.com/equilusten-hn" target="_blank">Drowsiness Detection System</a></h3>
+                        <div class="project-description">
+                           <p>An engineered system that processes video at 30 fps to achieve 95% accuracy in real-time drowsiness detection, incorporating deep learning to reduce false positives by 40%.</p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>OpenCV</li>
+                            <li>Machine Learning</li>
+                            <li>Raspberry Pi</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/equilusten-hn" target="_blank" aria-label="GitHub link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="project-item">
+                    <div class="project-image">
+                        <a href="https://github.com/equilusten-hn" target="_blank"></a>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-overline">Featured Project</p>
+                        <h3 class="project-title"><a href="https://github.com/equilusten-hn" target="_blank">Multimodal Emotion Detection</a></h3>
+                        <div class="project-description">
+                           <p>A system that uses Heart Rate, Text, and Audio signals for emotion detection. Enhanced feature extraction with TF-IDF and MFCCs to improve accuracy by 44%.</p>
+                        </div>
+                        <ul class="project-tech">
+                            <li>Python</li>
+                            <li>Machine Learning</li>
+                            <li>Signal Processing</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/equilusten-hn" target="_blank" aria-label="GitHub link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="other" class="container section-fade-in">
+            <h2><span class="section-number">04.</span> Other Noteworthy Mentions</h2>
+            <div class="other-grid">
+                <div class="other-card">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Summer Research Intern at NIT Patna</li>
+                        <li>Full Stack Development</li>
+                    </ul>
+                </div>
+                <div class="other-card">
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>Top 20 Percent</li>
+                        <li>IBM SPSS Statistics Expert</li>
+                        <li>Data Visualisation</li>
+                    </ul>
+                </div>
+                <div class="other-card">
+                    <h3>Positions of Responsibility</h3>
+                    <ul>
+                        <li>Vice President, Science and Environment Club</li>
+                        <li>Kotlin Team Lead, Google Developer Student Club</li>
+                        <li>Class Representative, Mathematics & Computing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container section-fade-in">
+            <h2 class="contact-title"><span class="section-number">05.</span> What's Next?</h2>
+            <h3>Get In Touch</h3>
+            <p>I'm actively seeking new internship and research opportunities where I can contribute my skills in Machine Learning and AI. My inbox is always open, whether you have a question or just want to say hi!</p>
+            <a href="mailto:gokavalashemanthnaidu@gmail.com" class="btn btn-primary">Say Hello</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-social-links">
+            <a href="https://github.com/equilusten-hn" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/im-hemanth" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Designed & Built by Hemanth Naidu Gokavalasa</p>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
